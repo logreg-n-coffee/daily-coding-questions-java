@@ -36,3 +36,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 151: replace the pixel and adjacent same colored pixels
 - Q 152: generate one of the numbers with its corresponding probability
 - Q 153: find the smallest distance between any two given words in a string
+- Q 154: implement a stack using only a heap
