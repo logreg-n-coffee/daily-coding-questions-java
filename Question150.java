@@ -8,7 +8,7 @@
 
 import java.util.*;
 
-class Question150 {
+public class Question150 {
     public static void main(String[] args) {
         int[][] points = {{0, 0}, {5, 4}, {3, 1}};
         int[] center = {1, 2};
@@ -19,31 +19,37 @@ class Question150 {
         System.out.println(Arrays.deepToString(result.toArray()));
     }
 
+    // solve the question with priority queue - O(n log k) time and O(k) space
     public static List<int[]> nearestKPoints(int[][] points, int[] center, int k) {
         if (points.length <= k) {
             return Arrays.asList(points);
         }
 
+        // instantiate a priority queue of point(s) and use lambda function to stipulate the order
         PriorityQueue<int[]> pq = new PriorityQueue<>((p1, p2) -> {
             double dist1 = getDistance(p1, center);
             double dist2 = getDistance(p2, center);
 
-            return Double.compare(dist2, dist1);
+            return Double.compare(dist2, dist1);  // the smaller, the better
         });
 
+        // go through the points list
         for (int[] point : points) {
+            // if pq size is less than k, push (offer) the point to pq
             if (pq.size() < k) {
                 pq.offer(point);
             } else {
+                // if pq is full but there are more points, compare the new point with the head of the q
                 double dist = getDistance(point, center);
                 assert pq.peek() != null;
                 if (dist < getDistance(pq.peek(), center)) {
-                    pq.poll();
-                    pq.offer(point);
+                    pq.poll();  // retrieve and remove head of the q
+                    pq.offer(point);  // offer the new point
                 }
             }
         }
 
+        // create a list to store the result and clear out the pq
         List<int[]> result = new ArrayList<>();
         while (!pq.isEmpty()) {
             result.add(pq.poll());
