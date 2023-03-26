@@ -30,6 +30,9 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 
 ---
 
-## Question List
+## List of Questions 
 
-- Question 150: nearest k points from the central point
+- Q 150: nearest k points from the central point
+- Q 151: replace the pixel and adjacent same colored pixels
+- Q 152: generate one of the numbers with its corresponding probability
+- Q 153: find the smallest distance between any two given words in a string
