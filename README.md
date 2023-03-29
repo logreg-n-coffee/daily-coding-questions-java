@@ -38,3 +38,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 153: find the smallest distance between any two given words in a string
 - Q 154: implement a stack using only a heap
 - Q 155: find the majority element, which appears more than half the time
+- Q 156: smallest number of squared integers which sum to n
