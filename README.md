@@ -39,3 +39,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 154: implement a stack using only a heap
 - Q 155: find the majority element, which appears more than half the time
 - Q 156: smallest number of squared integers which sum to n
+- Q 157: given a string, determine whether any permutation of it is a palindrome
