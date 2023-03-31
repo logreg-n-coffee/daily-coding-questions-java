@@ -31,7 +31,7 @@ public class Question157 {
         }
 
         // if the char count is divisible by 2 it means that they can be offset / canceled out
-        List<Integer> offset = stringToCount.values().stream().filter(x -> x % 2  != 0).toList();
+        List<Integer> offset = stringToCount.values().stream().filter(x -> x % 2 != 0).toList();
 
         // we can allow everything to be offset then the offset list size will be zero
         // we can allow everything except only one character (in the center)

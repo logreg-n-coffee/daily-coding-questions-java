@@ -17,13 +17,20 @@ The top left corner and bottom right corner will always be 0.
  */
 
 public class Question158 {
-    public static final int EMPTY = 0;
-    public static final int WALL = 1;
+    static final int EMPTY = 0;
+    static final int WALL = 1;
 
     public static void main(String[] args) {
-
+        int[][] matrix = {
+                {EMPTY, EMPTY, WALL},
+                {EMPTY, EMPTY, WALL},
+                {WALL, EMPTY, EMPTY}
+        };
+        int result = numWays(matrix);
+        System.out.println(result);
     }
 
+    // solve the question with dynamic programming - O(m * n) time and space
     public static int numWays(int[][] matrix) {
         int m = matrix.length;
         int n = matrix[0].length;
@@ -39,7 +46,7 @@ public class Question158 {
 
         // fill the first column
         for (int i = 0; i < m; i++) {
-            if (matrix[i][0] < m) {
+            if (matrix[i][0] == WALL) {
                 break;
             }
             numWaysMatrix[i][0] = 1;
@@ -47,13 +54,16 @@ public class Question158 {
 
         for (int i = 1; i < m; i++) {
             for (int j = 1; j < n; j++) {
-                int fromTop = (matrix[i - 1][j] != WALL) ? matrix[i - 1][j] : 0;
-                int fromLeft = (matrix[i][j - 1] != WALL) ? matrix[i][j - 1] : 0;
-
-                numWaysMatrix[i][j] = fromTop + fromLeft;
+                if (matrix[i][j] != WALL) {
+                    int fromTop = numWaysMatrix[i - 1][j];
+                    int fromLeft = numWaysMatrix[i][j - 1];
+                    numWaysMatrix[i][j] = fromTop + fromLeft;
+                }
             }
         }
 
-        return numWaysMatrix[m - 1][n - 1];
+        return (matrix[m - 1][n - 1] == WALL)
+                ? 0  // if the bottom right is a wall then there is no solution
+                : (numWaysMatrix[m - 1][n - 1]);
     }
 }
