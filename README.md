@@ -43,3 +43,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 158: given a matrix, Starting from the top left corner, find the number of ways to reach the bottom right corner
 - Q 159: given a string, return the first recurring character in it, or null if there is no recurring character
 - Q 160: given a tree where each edge has a weight, compute the length of the longest path in the tree
+- Q 161: given a 32-bit integer, return the number with its bits reversed

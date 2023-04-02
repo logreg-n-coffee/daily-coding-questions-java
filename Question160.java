@@ -55,6 +55,7 @@ public class Question160 {
 
     private static int maxPathLength = 0;
 
+    // recursive Depth-First Search (DFS) algorithm - Time: O(N), Space: O(log(N)) ~ O(N), where N is the num of nodes
     public static int findLongestPath(TreeNode node) {
         if (node == null) {
             return 0;
