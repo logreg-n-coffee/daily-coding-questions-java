@@ -47,3 +47,5 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 162: given a list of words, return the shortest unique prefix of each word
 - Q 163: given an arithmetic expression in Reverse Polish Notation, write a program to evaluate it
 - Q 164: find a duplicate element in linear time and space
+- Q 165: given an array of integers, return a new array where each element in the new array is the number of 
+smaller elements to the right of that element in the original input array
