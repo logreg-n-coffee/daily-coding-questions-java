@@ -46,3 +46,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 161: given a 32-bit integer, return the number with its bits reversed
 - Q 162: given a list of words, return the shortest unique prefix of each word
 - Q 163: given an arithmetic expression in Reverse Polish Notation, write a program to evaluate it
+- Q 164: find a duplicate element in linear time and space
