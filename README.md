@@ -65,3 +65,4 @@ the concatenation of the two words is a palindrome
 - Q 178: Probabilistic game simulation
 - Q 179: Reconstruct the binary search tree based on its postorder traversal
 - Q 180: Given a stack of N elements, interleave the first half of the stack
+- Q 181: Given a string, split it into as few strings as possible such that each string is a palindrome
