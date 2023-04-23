@@ -64,3 +64,4 @@ the concatenation of the two words is a palindrome
 - Q 177: Rotate a linked list
 - Q 178: Probabilistic game simulation
 - Q 179: Reconstruct the binary search tree based on its postorder traversal
+- Q 180: Given a stack of N elements, interleave the first half of the stack
