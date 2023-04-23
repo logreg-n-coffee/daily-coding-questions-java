@@ -61,3 +61,4 @@ the concatenation of the two words is a palindrome
 - Q 174: Explain ad-hoc polymorphism, parametric polymorphism, and subtype polymorphism
 - Q 175: Calculate Markov chain
 - Q 176: Check one-to-one character mapping for string 1 and string 2
+- Q 177: Rotate a linked list
