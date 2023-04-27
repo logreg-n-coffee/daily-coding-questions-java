@@ -72,3 +72,4 @@ the concatenation of the two words is a palindrome
 - Q 185: Given two rectangles on a 2D graph, return the area of their intersection
 - Q 186: Given an array of positive integers, divide the array into two subsets such that the difference 
 between the sum of the subsets is as small as possible
+- Q 187: Given a list of rectangles. Compute whether a pair of rectangles overlap each other
