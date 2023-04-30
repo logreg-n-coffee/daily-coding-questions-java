@@ -78,3 +78,4 @@ between the sum of the subsets is as small as possible
 - Q 190: Given a circular array, compute its maximum subarray sum in O(n) time 
 - Q 191: Given a collection of intervals, find the minimum number of intervals you need to remove to make 
 the rest of the intervals non-overlapping
+- Q 192: Given an array of non-negative integers, determine whether you can get to the end of the array
