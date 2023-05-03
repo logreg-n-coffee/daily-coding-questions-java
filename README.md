@@ -80,3 +80,4 @@ between the sum of the subsets is as small as possible
 the rest of the intervals non-overlapping
 - Q 192: Given an array of non-negative integers, determine whether you can get to the end of the array
 - Q 193: Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock
+- Q 194: Given two lists of n points, one list p1, p2, ..., pn on the line y = 0 and the other list q1, q2, ..., qn on the line y = 1. Write an algorithm to determine how many pairs of the line segments intersect
