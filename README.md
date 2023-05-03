@@ -70,7 +70,7 @@ the concatenation of the two words is a palindrome
 - Q 183: Describe what happens when you type a URL into your browser and press Enter
 - Q 184: Given n numbers, find the greatest common denominator between them
 - Q 185: Given two rectangles on a 2D graph, return the area of their intersection
-- Q 186: Given an array of positive integers, divide the array into two subsets such that the difference 
+- Q 186: Given an array of positive integers, divide the array into two subsets such that the difference
 between the sum of the subsets is as small as possible
 - Q 187: Given a list of rectangles. Compute whether a pair of rectangles overlap each other
 - Q 188: Fix Function Closure Bug
@@ -81,3 +81,4 @@ the rest of the intervals non-overlapping
 - Q 192: Given an array of non-negative integers, determine whether you can get to the end of the array
 - Q 193: Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock
 - Q 194: Given two lists of n points, one list p1, p2, ..., pn on the line y = 0 and the other list q1, q2, ..., qn on the line y = 1. Write an algorithm to determine how many pairs of the line segments intersect
+- Q 195: Given i1, j1, i2, and j2, compute the number of elements of M smaller than M[i1, j1] and larger than M[i2, j2] in a given matrix
