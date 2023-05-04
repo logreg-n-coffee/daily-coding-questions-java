@@ -83,3 +83,4 @@ the rest of the intervals non-overlapping
 - Q 194: Given two lists of n points, one list p1, p2, ..., pn on the line y = 0 and the other list q1, q2, ..., qn on the line y = 1. Write an algorithm to determine how many pairs of the line segments intersect
 - Q 195: Given i1, j1, i2, and j2, compute the number of elements of M smaller than M[i1, j1] and larger than M[i2, j2] in a given matrix
 - Q 196: Given the root of a binary tree, find the most frequent subtree sum
+- Q 197: Given an array and a number k that's smaller than the length of the array, rotate the array to the right k elements in-place.
