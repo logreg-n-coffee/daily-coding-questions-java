@@ -88,3 +88,4 @@ the rest of the intervals non-overlapping
 - Q 199: Given a string of parentheses, find the balanced string that can be produced, from it using the minimum number of insertions and deletions
 - Q 200: Compute the smallest set of points that stabs X, a set of n intervals on the real line
 - Q 201: Given an array of arrays of integers, return the weight of the maximum weight path
+- Q 202: Write a program that checks whether an integer is a palindrome
