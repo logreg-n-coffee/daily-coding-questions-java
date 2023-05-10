@@ -89,3 +89,4 @@ the rest of the intervals non-overlapping
 - Q 200: Compute the smallest set of points that stabs X, a set of n intervals on the real line
 - Q 201: Given an array of arrays of integers, return the weight of the maximum weight path
 - Q 202: Write a program that checks whether an integer is a palindrome
+- Q 203: Find the minimum element in O(log N) time in an array sorted in ascending order is rotated at some pivot unknown to you beforehand
