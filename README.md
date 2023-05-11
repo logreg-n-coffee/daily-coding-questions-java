@@ -90,3 +90,4 @@ the rest of the intervals non-overlapping
 - Q 201: Given an array of arrays of integers, return the weight of the maximum weight path
 - Q 202: Write a program that checks whether an integer is a palindrome
 - Q 203: Find the minimum element in O(log N) time in an array sorted in ascending order is rotated at some pivot unknown to you beforehand
+- Q 204: Given a complete binary tree, count the number of nodes in faster than O(n) time
