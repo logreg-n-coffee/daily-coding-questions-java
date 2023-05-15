@@ -92,3 +92,4 @@ the rest of the intervals non-overlapping
 - Q 203: Find the minimum element in O(log N) time in an array sorted in ascending order is rotated at some pivot unknown to you beforehand
 - Q 204: Given a complete binary tree, count the number of nodes in faster than O(n) time
 - Q 205: Given an integer, find the next permutation of it in absolute order.
+- Q 206: Given an array and a permutation, apply the permutation to the array
