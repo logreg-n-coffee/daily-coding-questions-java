@@ -97,3 +97,4 @@ the rest of the intervals non-overlapping
 - Q 208: Given a linked list of numbers and a pivot k, partition the linked list so that all nodes less than k come before nodes greater than or equal to k
 - Q 209: Write a program that computes the length of the longest common subsequence of three given strings
 - Q 210: Test the conjecture of Collatz sequence and find out the longest sequence with limit of n <= 1000000
+- Q 211: Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string
