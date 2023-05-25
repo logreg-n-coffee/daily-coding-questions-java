@@ -103,3 +103,4 @@ the rest of the intervals non-overlapping
 - Q 214: Given an integer n, return the length of the longest consecutive run of 1s in its binary representation
 - Q 215: Given the root to a binary tree, return its bottom view
 - Q 216: Given a number in Roman numeral format, convert it to decimal
+- Q 217: Given input N, find the smallest sparse number greater than or equal to N
