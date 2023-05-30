@@ -108,3 +108,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 219: Implement Connect Four
 - Q 220: You and an opponent take turns choosing either the first or last coin from the row, removing it from the row, and receiving the value of the coin. Write a program that returns the maximum amount of money you can win
 - Q 221: Create an algorithm to find the nth sevenish number
+- Q 222: Given an absolute pathname that may have . or .. as part of it, return the shortest standardized path
