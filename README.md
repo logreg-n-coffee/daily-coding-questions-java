@@ -11,7 +11,7 @@ This repository contains solutions to Daily Coding Problem questions in Java.
 cd "path/to/file" && javac QuestionXX.java && java QuestionXX
 ```
 
-***Note: XX indicates the question number***
+**_Note: XX indicates the question number_**
 
 ## Contributing
 
@@ -48,10 +48,10 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 163: given an arithmetic expression in Reverse Polish Notation, write a program to evaluate it
 - Q 164: find a duplicate element in linear time and space
 - Q 165: given an array of integers, return a new array where each element in the new array is the number of
-smaller elements to the right of that element in the original input array
+  smaller elements to the right of that element in the original input array
 - Q 166: implement a 2D iterator class
 - Q 167: given a list of words, find all pairs of unique indices such that
-the concatenation of the two words is a palindrome
+  the concatenation of the two words is a palindrome
 - Q 168: given an N by N matrix, rotate it by 90 degrees clockwise
 - Q 169: given a linked list, sort it in O(n log n) time and constant space
 - Q 170: find the shortest transformation sequence
@@ -71,13 +71,13 @@ the concatenation of the two words is a palindrome
 - Q 184: Given n numbers, find the greatest common denominator between them
 - Q 185: Given two rectangles on a 2D graph, return the area of their intersection
 - Q 186: Given an array of positive integers, divide the array into two subsets such that the difference
-between the sum of the subsets is as small as possible
+  between the sum of the subsets is as small as possible
 - Q 187: Given a list of rectangles. Compute whether a pair of rectangles overlap each other
 - Q 188: Fix Function Closure Bug
 - Q 189: Given an array of elements, return the length of the longest subarray where all its elements are distinct
 - Q 190: Given a circular array, compute its maximum subarray sum in O(n) time
 - Q 191: Given a collection of intervals, find the minimum number of intervals you need to remove to make
-the rest of the intervals non-overlapping
+  the rest of the intervals non-overlapping
 - Q 192: Given an array of non-negative integers, determine whether you can get to the end of the array
 - Q 193: Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock
 - Q 194: Given two lists of n points, one list p1, p2, ..., pn on the line y = 0 and the other list q1, q2, ..., qn on the line y = 1. Write an algorithm to determine how many pairs of the line segments intersect
@@ -106,3 +106,4 @@ the rest of the intervals non-overlapping
 - Q 217: Given input N, find the smallest sparse number greater than or equal to N
 - Q 218: Write an algorithm that computes the reversal of a directed graph
 - Q 219: Implement Connect Four
+- Q 220: You and an opponent take turns choosing either the first or last coin from the row, removing it from the row, and receiving the value of the coin. Write a program that returns the maximum amount of money you can win
