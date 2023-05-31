@@ -110,3 +110,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 221: Create an algorithm to find the nth sevenish number
 - Q 222: Given an absolute pathname that may have . or .. as part of it, return the shortest standardized path
 - Q 223: Write a program to compute the in-order traversal of a binary tree using O(1) space
+- Q 224: Given a sorted array, find the smallest positive integer that is not the sum of a subset of the array
