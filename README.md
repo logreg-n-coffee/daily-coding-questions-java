@@ -112,3 +112,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 223: Write a program to compute the in-order traversal of a binary tree using O(1) space
 - Q 224: Given a sorted array, find the smallest positive integer that is not the sum of a subset of the array
 - Q 225: Solve Josephus question
+- Q 226: You come across a dictionary of sorted words in a language you've never seen before. Write a program that returns the correct order of letters in this language
