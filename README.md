@@ -115,3 +115,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 226: You come across a dictionary of sorted words in a language you've never seen before. Write a program that returns the correct order of letters in this language
 - Q 227: Implement a Boggle Solver
 - Q 228: Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer
+- Q 229: Find smallest turns required to play Snakes and Ladders
