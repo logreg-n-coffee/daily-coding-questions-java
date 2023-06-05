@@ -113,3 +113,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 224: Given a sorted array, find the smallest positive integer that is not the sum of a subset of the array
 - Q 225: Solve Josephus question
 - Q 226: You come across a dictionary of sorted words in a language you've never seen before. Write a program that returns the correct order of letters in this language
+- Q 227: Implement a Boggle Solver
