@@ -118,3 +118,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 229: Find smallest turns required to play Snakes and Ladders
 - Q 230: Solve egg dropping question
 - Q 231: Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return None
+- Q 232: Implement a PrefixMapSum class. `insert(key: str, value: int)` and `sum(prefix: str)`
