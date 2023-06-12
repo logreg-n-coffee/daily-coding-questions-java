@@ -121,3 +121,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 232: Implement a PrefixMapSum class. `insert(key: str, value: int)` and `sum(prefix: str)`
 - Q 233: Implement the function fib(n), which returns the nth number in the Fibonacci sequence, using only O(1) space
 - Q 234: Given an undirected graph with weighted edges, compute the maximum weight spanning tree
+- Q 235: Given an array of numbers of length N, find both the minimum and maximum using less than 2 * (N - 2) comparisons
