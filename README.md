@@ -123,3 +123,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 234: Given an undirected graph with weighted edges, compute the maximum weight spanning tree
 - Q 235: Given an array of numbers of length N, find both the minimum and maximum using less than 2 * (N - 2) comparisons
 - Q 236: Determine if a new point p lies inside a polygon defined in a list of N points
+- Q 237: Given a k-ary tree, determine whether it is symmetric
