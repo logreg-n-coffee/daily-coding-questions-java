@@ -125,3 +125,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 236: Determine if a new point p lies inside a polygon defined in a list of N points
 - Q 237: Given a k-ary tree, determine whether it is symmetric
 - Q 238: Implement a blackjack solver that maximizes the player's score
+- Q 239: Find the possible unlock patterns of an Android lock screen given the length of the unlock pattern
