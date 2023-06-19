@@ -129,3 +129,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 240: There are N couples sitting in a row of length 2 * N. They are currently ordered randomly, but would like to rearrange themselves so that each couple's partners can sit side by side
 - Q 241: Count the h-index of a researcher.  A researcher has index h if at least h of her N papers have h citations each
 - Q 242: You are given an array of length 24, where each element represents the number of new subscribers during the corresponding hour. Implement a data structure to save the subscribers and has range query and point update functionalities
+- Q 243: Given an array of numbers N and an integer k, your task is to split N into k partitions such that the maximum sum of any partition is minimized. Return this sum
