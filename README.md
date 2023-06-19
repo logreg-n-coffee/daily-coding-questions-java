@@ -126,3 +126,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 237: Given a k-ary tree, determine whether it is symmetric
 - Q 238: Implement a blackjack solver that maximizes the player's score
 - Q 239: Find the possible unlock patterns of an Android lock screen given the length of the unlock pattern
+- Q 240: There are N couples sitting in a row of length 2 * N. They are currently ordered randomly, but would like to rearrange themselves so that each couple's partners can sit side by side
