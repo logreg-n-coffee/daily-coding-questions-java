@@ -18,38 +18,68 @@ class Question246 {
         System.out.println(canFormCircle); // expected output: true
     }
 
-    public static boolean canFormCircle(String[] words) {
-        Map<Character, List<Character>> graph = new HashMap<>();
-        // By keeping track of the in-degree of each node, we can identify the starting
-        // nodes for the DFS.
-        int[] inDegree = new int[26];
+    private static Map<Character, LinkedList<Character>> adjVertices = new HashMap<>();
+    private static Map<Character, Boolean> visitedNodes = new HashMap<>();
+    private static Map<Character, Integer> inDegree = new HashMap<>();
+    private static Map<Character, Integer> outDegree = new HashMap<>();
 
-        // Build the graph of characters
+    private static boolean canFormCircle(String[] words) {
+
+        // Step 1: Create adjacency list and calculate in/out degrees
         for (String word : words) {
-            char first = word.charAt(0);
-            char last = word.charAt(word.length() - 1);
-            graph.putIfAbsent(first, new ArrayList<>());
-            graph.putIfAbsent(last, new ArrayList<>());
-            graph.get(first).add(last);
-            inDegree[last - 'a']++;
+            char firstChar = word.charAt(0);
+            char lastChar = word.charAt(word.length() - 1);
+
+            // populate the adjacency list
+            adjVertices.putIfAbsent(firstChar, new LinkedList<>());
+            adjVertices.get(firstChar).add(lastChar);
+
+            // calculate in/out degrees
+            outDegree.put(firstChar, outDegree.getOrDefault(firstChar, 0) + 1);
+            inDegree.put(lastChar, inDegree.getOrDefault(lastChar, 0) + 1);
+
+            // mark nodes as not visited
+            visitedNodes.put(firstChar, false);
+            visitedNodes.put(lastChar, false);
         }
 
-        // perform dfs to check if there is a path that visits all nodes exactly once
-        Set<Character> visited = new HashSet<>();
-        char start = words[0].charAt(0);
-        return dfs(graph, inDegree, visited, start) == words.length;
-    }
-
-    private static int dfs(Map<Character, List<Character>> graph, int[] inDegree, Set<Character> visited, char node) {
-        int count = 1;
-        if (graph.containsKey(node)) {
-            for (char neighbor : graph.get(node)) {
-                if (!visited.contains(neighbor)) {
-                    visited.add(neighbor);
-                    count += dfs(graph, inDegree, visited, neighbor);
-                }
+        // Step 2: Check if in degree and out degree of every vertex is same
+        for (Character vertex : adjVertices.keySet()) {
+            if (!inDegree.get(vertex).equals(outDegree.get(vertex))) {
+                return false;
             }
         }
-        return count;
+
+        // Step 3: Make sure all non-zero degree vertices form a single connected
+        // component
+        int nonZeroDegreeVertices = 0;
+        for (Character vertex : adjVertices.keySet()) {
+            if (outDegree.get(vertex) > 0) {
+                nonZeroDegreeVertices++;
+            }
+        }
+
+        // Do a DFS traversal of graph starting from the first character of the first
+        // word
+        dfsTraversal(words[0].charAt(0));
+
+        // If DFS traversal visits all vertices, then return true
+        int visitedVertices = 0;
+        for (Character vertex : visitedNodes.keySet()) {
+            if (visitedNodes.get(vertex) && outDegree.get(vertex) > 0) {
+                visitedVertices++;
+            }
+        }
+
+        return visitedVertices == nonZeroDegreeVertices;
+    }
+
+    private static void dfsTraversal(char currentVertex) {
+        visitedNodes.put(currentVertex, true);
+        for (char vertex : adjVertices.get(currentVertex)) {
+            if (!visitedNodes.get(vertex)) {
+                dfsTraversal(vertex);
+            }
+        }
     }
 }
