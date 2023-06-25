@@ -132,3 +132,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 243: Given an array of numbers N and an integer k, your task is to split N into k partitions such that the maximum sum of any partition is minimized. Return this sum
 - Q 244: Implement the algorithm of Sieve of Eratosthenes
 - Q 245: You are given an array of integers, where each element represents the maximum number of steps that can be jumped going forward from that element. Write a function to return the minimum number of jumps you must take in order to get from the start to the end of the array
+- Q 246: Given a list of words, determine whether the words can be chained to form a circle
