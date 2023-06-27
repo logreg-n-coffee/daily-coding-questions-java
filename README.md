@@ -135,3 +135,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 246: Given a list of words, determine whether the words can be chained to form a circle
 - Q 247: Given a binary tree, determine whether or not it is height-balanced
 - Q 248: Find the maximum of two numbers without using any if-else statements, branching, or direct comparisons
+- Q 249: Given an array of integers, find the maximum XOR of any two elements
