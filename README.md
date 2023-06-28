@@ -138,3 +138,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 249: Given an array of integers, find the maximum XOR of any two elements
 - Q 250: A cryptarithmetic puzzle is a mathematical game where the digits of some numbers are represented by letters. Each letter represents a unique digit
 - Q 251: Given an array of a million integers between zero and a billion, out of order, how can you efficiently sort it? Assume that you cannot store an array of a billion elements in memory
+- Q 252: Create an algorithm to turn an ordinary fraction a / b, where a < b, into an Egyptian fraction
