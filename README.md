@@ -136,3 +136,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 247: Given a binary tree, determine whether or not it is height-balanced
 - Q 248: Find the maximum of two numbers without using any if-else statements, branching, or direct comparisons
 - Q 249: Given an array of integers, find the maximum XOR of any two elements
+- Q 250: A cryptarithmetic puzzle is a mathematical game where the digits of some numbers are represented by letters. Each letter represents a unique digit
