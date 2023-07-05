@@ -142,3 +142,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 253: Given a string and a number of lines k, print the string in zigzag form
 - Q 254: Given a binary tree, convert it to a full one by removing nodes with only one child
 - Q 255: Given a graph, find its transitive closure
+- Q 256: Given a linked list, rearrange the node values such that they appear in alternating low -> high -> low -> high ... form
