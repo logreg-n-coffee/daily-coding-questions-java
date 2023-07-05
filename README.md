@@ -143,3 +143,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 254: Given a binary tree, convert it to a full one by removing nodes with only one child
 - Q 255: Given a graph, find its transitive closure
 - Q 256: Given a linked list, rearrange the node values such that they appear in alternating low -> high -> low -> high ... form
+- Q 257: Given an array of integers out of order, determine the bounds of the smallest window (indices) that must be sorted in order for the entire array to be sorted
