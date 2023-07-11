@@ -146,3 +146,5 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 257: Given an array of integers out of order, determine the bounds of the smallest window (indices) that must be sorted in order for the entire array to be sorted
 - Q 258: Given a binary tree, write an algorithm to print the nodes in boustrophedon order
 - Q 259: Given a dictionary of words, determine the letters the first player should start with, such that with optimal play they cannot lose
+- Q 260: Reconstruct an array following a +/- pattern
+- Q 261: Build a Huffman tree based on the frequency dictionary
