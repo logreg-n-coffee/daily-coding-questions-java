@@ -152,3 +152,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 263: Determine whether an input string is a valid pattern
 - Q 264: Create an algorithm that finds a De Bruijn sequence
 - Q 265: A company would like to give the smallest positive amount to each worker consistent with the constraint that if a developer has written more lines of code than their neighbor, they should receive more money. Given an array representing a line of seats of employees at MegaCorp, determine how much each one should get paid
+- Q 266: Given a dictionary of words and an input word, create a function that returns all valid step words
