@@ -155,3 +155,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 266: Given a dictionary of words and an input word, create a function that returns all valid step words
 - Q 267: Given an 8x8 matrix, determine whether the king is in check
 - Q 268: Given a 32-bit positive integer N, determine whether it is a power of four in faster than O(log N) time
+- Q 269: Given a string representing Domino forces, Determine the orientation of each tile after the dominoes stop falling
