@@ -6,6 +6,11 @@ import java.util.List;
  */
 
 public class Question278 {
+    // The time complexity for generating all possible binary search trees with N
+    // nodes can be represented by the Catalan numbers. It's approximately O(4^n /
+    // n^(3/2)) (this is after applying the Binet's formula on the nth catalan
+    // number).
+    // The space complexity for this problem is O(N)
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
         int N = 3;
