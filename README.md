@@ -162,3 +162,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 273: Given a sorted array of distinct elements, return a fixed point (an element whose value is equal to its index), if one exists. Otherwise, return null
 - Q 274: Given a string consisting of parentheses, single digits, and positive and negative signs, convert the string into a mathematical expression to obtain the answer
 - Q 275: Given an integer N, print the Nth term of the Look and Say Sequence
+- Q 276: Implement an efficient string matching algorithm.
