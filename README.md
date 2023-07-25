@@ -165,3 +165,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 276: Implement an efficient string matching algorithm
 - Q 277: Write a program that takes in an array of integers representing byte values, and returns whether it is a valid UTF-8 encoding
 - Q 278: Given an integer N, construct all possible binary search trees with N nodes
+- Q 279: Each student can be placed in a friend group, which can be defined as the transitive closure of that student's friendship relations. In other words, this is the smallest set such that no student in the group has any friends outside this group. Find the number of the friend groups in total
