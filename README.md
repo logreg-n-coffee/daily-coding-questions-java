@@ -167,3 +167,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 278: Given an integer N, construct all possible binary search trees with N nodes
 - Q 279: Each student can be placed in a friend group, which can be defined as the transitive closure of that student's friendship relations. In other words, this is the smallest set such that no student in the group has any friends outside this group. Find the number of the friend groups in total
 - Q 280: Given an undirected graph, determine if it contains a cycle
+- Q 281: Find common cumulative length of an array of array of numbers
