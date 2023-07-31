@@ -171,3 +171,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 282: Given an array of integers, determine whether it contains a Pythagorean triplet
 - Q 283: Given an integer N, write a program that returns, in order, the first N regular numbers
 - Q 284: Given a binary tree and a particular node, find all cousins of that node
+- Q 285: You are given an array representing the heights of neighboring buildings on a city street, from east to west. The city assessor would like you to write an algorithm that returns how many of these buildings have a view of the setting sun, in order to properly value the street
