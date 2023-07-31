@@ -169,3 +169,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 280: Given an undirected graph, determine if it contains a cycle
 - Q 281: Find common cumulative length of an array of array of numbers
 - Q 282: Given an array of integers, determine whether it contains a Pythagorean triplet
+- Q 283:  Given an integer N, write a program that returns, in order, the first N regular numbers
