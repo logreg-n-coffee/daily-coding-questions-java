@@ -174,3 +174,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 285: You are given an array representing the heights of neighboring buildings on a city street, from east to west. The city assessor would like you to write an algorithm that returns how many of these buildings have a view of the setting sun, in order to properly value the street
 - Q 286: Solve the skyline of a city problem
 - Q 287: You are given a list of (website, user) pairs that represent users visiting websites. Come up with a program that identifies the top k pairs of websites with the greatest similarity.
+- Q 288: Write a function that returns how many steps are needed to find Kaprekar's contant for a given numbers
