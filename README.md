@@ -176,3 +176,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 287: You are given a list of (website, user) pairs that represent users visiting websites. Come up with a program that identifies the top k pairs of websites with the greatest similarity.
 - Q 288: Write a function that returns how many steps are needed to find Kaprekar's contant for a given numbers
 - Q 289: Solve the Nim problem
+- Q 290: Solve the Quxes problem by determining the smallest number of them remaining after the transformation
