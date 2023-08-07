@@ -178,3 +178,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 289: Solve the Nim problem
 - Q 290: Solve the Quxes problem by determining the smallest number of them remaining after the transformation
 - Q 291: If at most two people can fit in a rescue boat, and the maximum weight limit for a given boat is k, determine how many boats will be needed to save everyone
+- Q 292: Solve the 2-coloring problem
