@@ -179,3 +179,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 - Q 290: Solve the Quxes problem by determining the smallest number of them remaining after the transformation
 - Q 291: If at most two people can fit in a rescue boat, and the maximum weight limit for a given boat is k, determine how many boats will be needed to save everyone
 - Q 292: Solve the 2-coloring problem
+- Q 293: Shape a series of stones into a pyramid such that the height of each stone increases by one until reaching the tallest stone, after which the heights decrease by one. The start and end stones of the pyramid should each be one stone high.
